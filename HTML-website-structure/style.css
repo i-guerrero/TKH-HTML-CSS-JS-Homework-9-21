@@ -110,7 +110,8 @@ nav a, nav span {
 /* || main layout */
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 article, section {
